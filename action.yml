@@ -48,17 +48,17 @@ inputs:
   sdk-version:
     description: Zephyr SDK version to use or "auto" to detect automatically
     required: false
-    default: auto
+    default: "0.17.4"
 
   sdk-base:
     description: Base URL of the Zephyr SDK
     required: false
-    default: https://github.com/zephyrproject-rtos/sdk-ng/releases/download
+    default: https://github.com/SayCV/sdk-ng/releases/download
 
   toolchains:
     description: List of toolchains to install, colon separated
     required: false
-    default: arm-zephyr-eabi
+    default: armeb-zephyr-eabi
 
   west-project-filter:
     description: West project filter
